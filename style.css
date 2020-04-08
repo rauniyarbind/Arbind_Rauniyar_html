@@ -1,0 +1,153 @@
+.bdy{
+  background-color: rgb(122, 32, 32);
+  width: 410px;
+  height: 610px;
+}
+.main{
+    width: 400px;
+    height: 600px;
+     display: flex;
+     justify-content: center;
+     display: inline-block;
+     position: relative;
+     background-color: rgb(255, 255, 255);
+     border: 5px;
+     border-color: black;
+     margin: 5px;
+     
+   }
+   .head{
+     background-color: rgb(119, 206, 217);
+     width: 100%;
+     justify-content: center;
+     display: flex;
+     height: 60px;
+     font-weight: bold;
+    color: rgb(255, 255, 255);
+   }
+   .logo{
+       width: 25%;
+       left: 20px;
+       margin-top: 15px;
+       margin-left: 2px;
+   }
+   .signin{
+    width: 60%;
+    
+    float: ;
+    
+   }
+   .cancel{
+    width: 20%;
+    height: 20%;
+    left: 20px;
+    margin-top: 20px;
+   }
+   .frm{
+       padding: 20px;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: bold; */
+       
+   }
+   
+   input[type=email], select {
+    width: 90%;
+    padding: 12px 15px; 
+    margin: 8px 0;
+     display: inline-block;          
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 90%;
+    padding: 12px 20px; 
+    margin: 8px 0;
+     display: inline-block;          
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit], select {
+    width: 100%;
+    padding: 12px 20px; 
+    margin-top: 30px;
+     display: inline-block; 
+     border: none;         
+    border-radius: 4px;
+    font-size: 20px;
+  }
+
+  .sign{
+    background-color: rgb(84, 192, 206);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+  }
+  .sign:hover{
+    background-color: rgb(29, 206, 230);
+  }
+  .fb{
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    background-color: rgb(69, 108, 192);
+    margin-top: 25px;
+  }
+  .fb:hover {
+    background-color: rgb(51, 93, 182);
+  }
+
+  .gl{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(219,68,55);
+  }
+  .gl:hover {
+    background-color: rgb(216, 50, 35);
+  }
+  
+  .ep{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(206, 219, 86);
+  }
+  .gl:hover {
+    background-color: rgb(216, 50, 35);
+  }
+  .fr{
+    width: 100%;
+    
+  }
+  .vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    width: 90%;
+    margin-top: 30px;
+    background-color: #ddd;
+    
+  }
+  .vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 8px 10px;
+    
+  }
+  .fg{
+    margin-top: 30px;
+  }
+  .fyp{
+    float: left;
+  }
+  .reg{
+    float: right;
+  }
+  
