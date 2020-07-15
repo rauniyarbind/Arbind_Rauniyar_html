@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
   <title>Login</title>
 </head>
 <body>
@@ -16,10 +17,10 @@
     <div class="signin"><h2>Sign in</h2></div>
     <div class="cancel"><img src="./image/cancel.png" width="20px" height="20px"></div>
     </div>
-    <form class="frm">
-      <input type="email" name="username" placeholder="mail@example.com" required>
+    <form class="frm" name="RegForm" onsubmit="return formValidate()">
+      <input type="email" name="username" placeholder="mail@example.com">
       <img src="./image/mail.png" width="30px" height="30px">
-      <input type="password" name="password" placeholder="Password " required >
+      <input type="password" name="password" placeholder="Password " >
       <img src="./image/lock.png" width="30px" height="30px">
       <input type="submit" class="sign" value="SIGN IN">
       <span class="fyp">Forget your password?</span>
